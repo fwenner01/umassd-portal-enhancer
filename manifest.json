@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "UMass Dartmouth Portal Modifier",
+    "version": "1.0",
+    "description": "Modifies the UMSSD portal header, login form, and sidebar",
+    "permissions": ["notifications", "activeTab", "storage"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://umassd.umassonline.net/webapps/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
