@@ -5,7 +5,7 @@ This project is a firefox extension that adds various features to the University
 
 Adds a 'Notes' section to each course
 
-<a href="url"><img src="https://i.imgur.com/ejN6qtd.png" height=50% width=50% ></a>
+![image](https://i.imgur.com/ejN6qtd.png)
 
 
 Calculates grade percentages
