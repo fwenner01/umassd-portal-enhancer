@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "UMass Dartmouth Portal Modifier",
+    "name": "umassd-portal-enhancer",
     "version": "1.0",
-    "description": "Modifies the UMSSD portal header, login form, and sidebar",
+    "description": "Adds various features to the Umass Dartmouth student portal",
     "permissions": ["notifications", "activeTab", "storage"],
     "background": {
       "scripts": ["background.js"]
